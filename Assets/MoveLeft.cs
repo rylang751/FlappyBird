@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
         // Move pipes left
-        transfrom.Translate(Vector2.left * TimedeltaTime * speed);
+        transform.Translate(Vector2.left * Time.deltaTime * speed);
     }
 
     // Update is called once per frame
