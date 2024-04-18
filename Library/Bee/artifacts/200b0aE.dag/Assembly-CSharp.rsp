@@ -348,6 +348,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/BirdController.cs"
 "Assets/MoveLeft.cs"
+"Assets/RepeatBackground.cs"
 -langversion:9.0
 
 /deterministic
